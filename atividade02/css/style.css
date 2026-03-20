@@ -1,0 +1,95 @@
+* { --navbar-height: 90px; }
+
+nav {
+    height: var(--navbar-height);
+}
+
+body { padding-top: calc(var(--navbar-height)); }
+
+main {
+    font-family: 'Inter', sans-serif;
+    background-color: #dec59dab; /* Fundo creme bem suave, cor de madeira clara/vazada */
+    color: #4A3C2A; /* Texto marrom escuro */
+    
+}
+
+/* Nova fonte para cabeçalhos - Texturina (mais artesanal) */
+h1, h2, .navbar-brand {
+    font-family: 'Texturina', serif;    
+}
+
+/* Navbar */
+.navbar-brand {
+    color: #4A3C2A !important;
+}
+
+.nav-link {
+    color: #6C5B42 !important; /* Marrom intermediário para os links */
+    font-weight: 400;    
+}
+
+.nav-link:hover {
+    color: #4A3C2A !important;
+}
+
+/* Botão do Catálogo (Estilo Amadeirado) */
+.btn-wood {
+    background-color: #6C5B42; /* Marrom madeira */
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-wood:hover {
+    background-color: #4A3C2A;
+    color: #fff;
+}
+
+/* Botão Outline (Estilo Amadeirado) */
+.btn-outline-wood {
+    background-color: transparent;
+    color: #6C5B42;
+    border: 4px solid #6C5B42;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-wood:hover {
+    background-color: #6C5B42;
+    color: #fff;
+}
+
+/* Hero Section */
+.image-container img {
+    width: 90%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.img-guitar {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Imagens */
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 50px rgba(74, 60, 42, 0.2) !important;
+}
+
+/* Footer e Texto Específico */
+footer {
+    background-color: #faf7f2; /* Levemente diferente do fundo principal */
+    border-top: 1px solid #e2d7c7;
+}
+
+.timber-logo {
+    color: #4A3C2A;
+}
+
+.text-dark-wood {
+    color: #4A3C2A !important;
+}
